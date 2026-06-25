@@ -59,33 +59,33 @@ A protected admin panel that allows:
 
 ## 1. Clone Repository
 
-```bash
+
 git clone <repository-url>
-````
+
 
 ## 2. Install Dependencies
 
-```bash
+
 pip install -r requirements.txt
-```
+
 
 ## 3. Run Application
 
-```bash
+
 streamlit run app.py
-```
+
 
 Open:
 
-```
+
 http://localhost:8501
-```
+
 
 ---
 
 # 📁 Project Structure
 
-```
+
 Clinic-Management-System/
 
 │
@@ -100,7 +100,6 @@ Clinic-Management-System/
 
 └── README.md
     └── Documentation
-```
 
 ---
 
@@ -145,8 +144,3 @@ This project was developed for educational and demonstration purposes to showcas
 **Adel Galal**
 
 AI Student • C++ Developer • Creator
-
-```
-
-كده GitHub هيعرضه كـ README طبيعي مش كأنه كود.
-```
