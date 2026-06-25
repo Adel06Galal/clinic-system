@@ -1,5 +1,4 @@
 
-````md
 # 🏥 Smart Clinic Management System | Streamlit Web App
 
 A lightweight and interactive **Clinic Management & Appointment Booking System** built with **Python** and **Streamlit**.
