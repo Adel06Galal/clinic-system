@@ -22,11 +22,13 @@ A lightweight, interactive Clinic Management and Appointment Booking System buil
 
 Follow these simple steps to get the project up and running locally on your machine:
 
+---
+
 ### 1. Install Dependencies
+
 Install all the required Python libraries using the provided `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
-
 2. Run the Application
 Launch the Streamlit server by running the main entry file app.py:
 streamlit run app.py
