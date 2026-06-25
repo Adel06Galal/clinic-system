@@ -84,6 +84,7 @@ http://localhost:8501
 ---
 ```md
 # 📁 Project Structure
+```
 
 ```text
 Clinic-Management-System/
@@ -101,8 +102,7 @@ Clinic-Management-System/
 └── README.md
    └── Documentation
 ```
-```
-```
+
 ---
 
 # 🔐 Admin Access
