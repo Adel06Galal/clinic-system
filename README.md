@@ -108,7 +108,7 @@ Admins can:
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Adel06Galal/clinic-system.git
 
 cd Clinic-Management-System
 ```
