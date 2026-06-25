@@ -99,7 +99,9 @@ Clinic-Management-System/
 │   └── Required Python packages
 
 └── README.md
-    └── Documentation
+   └── Documentation
+```
+```
 ```
 ---
 
