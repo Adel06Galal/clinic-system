@@ -1,4 +1,3 @@
-ظبطتهولك بشكل أنضف واحترافي لـ GitHub README، مع ترتيب أفضل وMarkdown مضبوط:
 
 ````md
 # 🏥 Smart Clinic Management System | Streamlit Web App
