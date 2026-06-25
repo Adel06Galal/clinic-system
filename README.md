@@ -32,7 +32,7 @@ Launch the Streamlit server by running the main entry file app.py:
 streamlit run app.py
 Once executed, the local web server will automatically open the app in your browser at http://localhost:8501.
 
-📁 Project Structure
+#### 📁 Project Structure
 The project consists of the following core files:
 
 Plaintext
