@@ -22,28 +22,22 @@ A lightweight, interactive Clinic Management and Appointment Booking System buil
 
 Follow these simple steps to get the project up and running locally on your machine:
 
----
-
 ### 1. Install Dependencies
 
 Install all the required Python libraries using the provided `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
+
 2. Run the Application
 Launch the Streamlit server by running the main entry file app.py:
+
 streamlit run app.py
 Once executed, the local web server will automatically open the app in your browser at http://localhost:8501.
 
-#### 📁 Project Structure
+📁 Project Structure
 The project consists of the following core files:
 
 Plaintext
 ├── app.py                  # The main application entry point handling UI components and pages (Streamlit).
 ├── appointment_manager.py  # The backend logic handling data management, state manipulation, and booking rules.
-└── requirements.txt        # The dependencies file specifying packages required for execution
-🔒 Administrative Access
-Default Admin Password: 123456
-
-Note: Data is currently managed in-memory using Streamlit's st.session_state and will reset if the server session ends.
-
-💡 Disclaimer: This project was created for demonstration and educational purposes to showcase web-app prototyping capabilities using Streamlit.
+└── requirements.txt        # The dependencies file specifying packages required for execution.
