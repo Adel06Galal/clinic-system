@@ -1,28 +1,47 @@
 # 🏥 Clinic Management System (Streamlit Web App)
 
-نظام إلكتروني مبسط لإدارة عيادة طبية وحجز المواعيد، تم بناؤه باستخدام لغة **Python** وإطار العمل **Streamlit**. يتيح النظام للمرضى حجز المواعيد وإرسال بلاغات الطوارئ، كما يوفر لوحة تحكم خاصة بالإدارة لمتابعة الحجوزات وتعديل الجداول.
+A lightweight, interactive Clinic Management and Appointment Booking System built using **Python** and **Streamlit**. This application allows patients to book slots, submit feedback, and request emergency services, while providing an administrative dashboard for clinic management.
 
 ---
 
-## ✨ المميزات الرئيسية (Features)
+## ✨ Features
 
-* **🏠 الصفحة الرئيسية:** واجهة ترحيبية للمرضى توضح طريقة استخدام النظام.
-* **📅 حجز المواعيد (Book Appointment):** اختيار التخصص، الطبيب المتاح، وحجز الأوقات الشاغرة بشكل حي وديناميكي.
-* **📋 سجل المواعيد (My Appointments):** استعراض قائمة بجميع المواعيد التي تم تسجيلها داخل النظام.
-* **📝 قسم الآراء والشكاوى (Feedback):** إمكانية إرسال الملاحظات والآراء مباشرة من قبل المرضى.
-* **🚑 خدمة الطوارئ:** طلب سيارة إسعاف فورية مع تحديد اسم المريض والموقع، وتحديث حالة الطلب تلقائياً.
-* **🛠 لوحة تحكم المسؤول (Admin Panel):** محجوبة بكلمة مرور وتوفر:
-    * متابعة جميع الحجوزات والـ Feedback.
-    * تعديل جداول الأطباء (إضافة أو حذف فترات زمنية/مواعيد).
-    * متابعة سجلات طوارئ الإسعاف.
+* **🏠 Home Page:** A welcoming dashboard for patients introducing the clinic's premium medical services.
+* **📅 Book Appointment:** Real-time appointment booking where patients can select specialties, available doctors, and open time slots dynamically.
+* **📋 Appointment Records:** A transparent overview displaying all successfully booked appointment records.
+* **📝 Feedback Form:** A section dedicated to collecting patient experiences, reviews, and messages.
+* **🚑 Emergency Services:** An urgent care feature allowing instant ambulance requests with automated location tracking and admin notification.
+* **🛠 Admin Dashboard:** A secure panel protected by an access password (`123456`) that enables administrators to:
+    * View comprehensive appointment spreadsheets and feedback logs.
+    * Dynamically manage doctor schedules by adding or removing time slots.
+    * Monitor active ambulance dispatch logs in real-time.
 
 ---
 
-## 🚀 طريقة التثبيت والتشغيل (Installation & Setup)
+## 🚀 Installation & Setup
 
-لتشغيل هذا المشروع محلياً على جهازك، يرجى اتباع الخطوات التالية:
+Follow these simple steps to get the project up and running locally on your machine:
 
-### 1. استنساخ المستودع (Clone the Repository)
+### 1. Install Dependencies
+Install all the required Python libraries using the provided `requirements.txt` file:
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-cd YOUR_REPO_NAME
+pip install -r requirements.txt
+
+2. Run the Application
+Launch the Streamlit server by running the main entry file app.py:
+streamlit run app.py
+Once executed, the local web server will automatically open the app in your browser at http://localhost:8501.
+
+📁 Project Structure
+The project consists of the following core files:
+
+Plaintext
+├── app.py                  # The main application entry point handling UI components and pages (Streamlit).
+├── appointment_manager.py  # The backend logic handling data management, state manipulation, and booking rules.
+└── requirements.txt        # The dependencies file specifying packages required for execution
+🔒 Administrative Access
+Default Admin Password: 123456
+
+Note: Data is currently managed in-memory using Streamlit's st.session_state and will reset if the server session ends.
+
+💡 Disclaimer: This project was created for demonstration and educational purposes to showcase web-app prototyping capabilities using Streamlit.
