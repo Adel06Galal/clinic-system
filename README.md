@@ -59,33 +59,33 @@ A protected admin panel that allows:
 
 ## 1. Clone Repository
 
-
+```bash
 git clone <repository-url>
-
+```
 
 ## 2. Install Dependencies
 
-
+```bash
 pip install -r requirements.txt
-
+```
 
 ## 3. Run Application
 
-
+```bash
 streamlit run app.py
-
+```
 
 Open:
 
-
+```bash
 http://localhost:8501
-
+```
 
 ---
-
+```md
 # 📁 Project Structure
 
-
+```text
 Clinic-Management-System/
 
 │
@@ -100,7 +100,7 @@ Clinic-Management-System/
 
 └── README.md
     └── Documentation
-
+```
 ---
 
 # 🔐 Admin Access
